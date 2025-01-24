@@ -1,0 +1,105 @@
+/* Navbar Container */
+#navbar_container {
+    background-color: #06407a;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Branding */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #007bff;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+    border: 1px solid #ccc;
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+/* Login & Register Buttons */
+.login-btn, .register-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #007bff;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-btn:hover, .register-btn:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+.login-btn:focus, .register-btn:focus {
+    outline: none;
+}
+
+/* User Greeting */
+.navbar-nav .nav-item span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-item span:hover {
+    color: #007bff;
+}
+
+/* Logout Button */
+.navbar-nav .nav-item button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-item button:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+}
